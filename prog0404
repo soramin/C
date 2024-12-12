@@ -17,6 +17,8 @@ int main (void)
 
   printf ("i = %d, f = %f \n", i, f);
 
+  printf ("i = %.2d, f = %.2f \n", i, f);
+
   return 0;
 }
   
