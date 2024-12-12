@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main (void)
+{
+  int suuji;
+  int hitoketa;
+
+  suuji = 283;
+
+  hitoketa = suuji % 10;
+  hitoketa = suuji - ((suuji / 10) * 10);
+
+  printf ("%d の1桁目は %d\n", suuji, hitoketa);
+
+  return 0;
+}
